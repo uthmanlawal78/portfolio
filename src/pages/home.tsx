@@ -1,4 +1,3 @@
-import React from 'react';
 import profimg from '../assets/images/uthman.jpg';
 import Work from './work';
 

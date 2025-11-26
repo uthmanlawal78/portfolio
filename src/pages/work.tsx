@@ -1,4 +1,3 @@
-import React from 'react';
 import projA from '../assets/images/kranium.png';
 import projB from '../assets/images/ticket.png';
 import projC from '../assets/images/flowinade.png';

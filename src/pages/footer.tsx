@@ -1,7 +1,4 @@
-import React from 'react';
-import instag from '../assets/instag.svg';
-import linkedin from '../assets/linkedin.svg';
-import twit from '../assets/twitter.svg';
+
 
 export default function Footer() {
     return (
