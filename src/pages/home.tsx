@@ -19,7 +19,8 @@ export default function Home() {
                 </p></div>
            
             </div>
-            
+                 <p className="text-xl font-semibold">Featured work</p>
+
             <div>
                 <Work />
             </div>

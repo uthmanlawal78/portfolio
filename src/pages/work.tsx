@@ -5,8 +5,6 @@ import projC from '../assets/images/flowinade.png';
 export default function Work() {
     return (
         <div className='bg-[#EDF7FA]'>
-            <p className="text-xl font-semibold">Featured work</p>
-            
             <div className="p-4 flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-6">
                 <div className='w-1/4'>
                     <img src={projA} alt="Project A" className="w-48 h-28 rounded-md mt-4"/>
