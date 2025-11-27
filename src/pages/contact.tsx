@@ -2,8 +2,8 @@
 
 export default function Contact() {
     return (
-        <div className="p-4 flex flex-col md:flex-row items-start bg-white space-y-4 md:space-y-0 md:space-x-6 ">
-            <div className="w-1/2">
+        <div className="p-4 flex flex-col justify-center w-full  md:flex-row items-start bg-white space-y-4 md:space-y-0 md:space-x-6 ">
+            <div className="md:w-1/2">
                 <h1 className="text-2xl font-bold p-4 text-[#21243D]">Let's Talk</h1>
                 <h4 className="text-[#21243D]">Have some big idea or brand to develop and need help? Then reach out we'd love to hear about your project  and provide help</h4>
                 <h2 className="text-2xl font-bold p-4 text-[#21243D]">Email</h2>
@@ -17,9 +17,9 @@ export default function Contact() {
             </div>
             
             
-            <div className="w-1/2 bg-gray-100 rounded-md shadow-md">
-                <div className="p-4">
-                    <form className="flex flex-col space-y-4">
+            <div className="w-full md:w-1/2 bg-gray-100 rounded-md shadow-md">
+                <div className="p-4 ">
+                    <form className="flex flex-col space-y-4 ">
                         <label className="text-left">Name:</label>
                         <input id="name" type="text" placeholder="Romeo" className="p-2 border border-gray-300 rounded-md"/>
                         <label className="text-left">Email:</label>
