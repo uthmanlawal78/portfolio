@@ -16,6 +16,16 @@ export default function Work() {
                 </div>
             </div>
 
+            <div className="p-4 flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-6">
+                    <div className='w-1/4'>
+                        <img src={projC} alt="Project B" className="w-48 h-28 rounded-md mt-4"/>
+                    </div>
+                    <div className='w-3/4'>
+                        <h2 className="text-lg font-bold">FLOWINADE<br/><h4 className='rounded-md bg-[#142850] text-white px-2 inline-block '>2024</h4></h2>                       
+                        <p>A landing page for a shortlet apartment rental service.</p>
+                    </div>
+            </div>
+
 
             <div className="p-4 flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-6">
                     <div className='w-1/4'>
@@ -27,15 +37,7 @@ export default function Work() {
                     </div>
             </div>
 
-            <div className="p-4 flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-6">
-                    <div className='w-1/4'>
-                        <img src={projC} alt="Project B" className="w-48 h-28 rounded-md mt-4"/>
-                    </div>
-                    <div className='w-3/4'>
-                        <h2 className="text-lg font-bold">FLOWINADE<br/><h4 className='rounded-md bg-[#142850] text-white px-2 inline-block '>2024</h4></h2>                       
-                        <p>A landing page for a shortlet apartment rental service.</p>
-                    </div>
-            </div>
+            
             
         </div>
     )
