@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom';
 
 export default function Header() {
     return (
@@ -7,9 +7,9 @@ export default function Header() {
             <div>
             <nav className="mt-2">
                 <ul className="flex space-x-4">
-                    <li><a href="/" className="hover:underline">Home</a></li>
-                    <li><a href="/project" className="hover:underline">Projects</a></li>
-                    <li><a href="/contact" className="hover:underline">Contact</a></li>
+                    <li><Link to="/" className="hover:underline">Home</Link></li>
+                    <li><Link to="/project" className="hover:underline">Projects</Link></li>
+                    <li><Link to="/contact" className="hover:underline">Contact</Link></li>
                 </ul>
             </nav>
             </div>
